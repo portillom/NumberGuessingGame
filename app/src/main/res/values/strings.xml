@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Number Guessing Game</string>
+    <string name="instruction_text_view">Guess a number between \n1 and 1000</string>
+    <string name="guesses_remaining_text_view">Guesses Remaining: %d</string>
+    <string name="text_box">Enter a number: </string>
+    <string name="submit_button">Submit</string>
+    <string name="correct_toast">Congragulations! You guessed correctly.</string>
+    <string name="incorrect_too_high_toast">Guess lower</string>
+    <string name="incorrect_too_low_toast">Guess higher</string>
+    <string name="game_over_text">GAME OVER</string>
+    <string name="reset_button">Reset</string>
+    <string name="attempted_answers_text">Attempted answers:\n </string>
+    <string name="player_won_text">YOU GOT IT!</string>
+    <string name="number_out_of_range_toasty">Choose a number between 1 and 1000</string>
+</resources>
