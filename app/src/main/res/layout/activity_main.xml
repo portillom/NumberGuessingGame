@@ -10,6 +10,7 @@
         android:id="@+id/instruction_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="@string/instruction_text_view"
         android:gravity="center_horizontal"
         android:textSize="23dp"
@@ -39,6 +40,7 @@
             android:id="@+id/submit_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@drawable/button_background_submit"
             android:text="@string/submit_button"/>
     </LinearLayout>
     <TextView
@@ -68,7 +70,8 @@
             android:id="@+id/reset_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background_reset"
             android:text="@string/reset_button"
             android:visibility="invisible"/>
     </LinearLayout>
